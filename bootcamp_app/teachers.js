@@ -1,6 +1,6 @@
 const { Pool } = require('pg');
 
-const arg = process.argv[2];
+const arg = process.argv[2] || 'JUL02';
 
 
 const pool = new Pool({
